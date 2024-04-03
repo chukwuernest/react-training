@@ -20,7 +20,7 @@ const Cleanup = () => {
     <div className='main'>
       <div className='section'>
         <div className='head'>
-          <h1>fetch useEffect</h1>
+          <h1>GitHub USERS</h1>
           <ul>
             {users.map((user) => {
               const { id, login, html_url, avatar_url } = user
